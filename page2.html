@@ -1,48 +1,74 @@
-<!-- This is the main header for the page -->
-<header> 
-    <h1>Day Trading Basics</h1>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Added header styling -->
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day Trading Basics</title>
 
-<!-- Main content starts here -->
-<main> 
-    <!-- Introduction section -->
-    <section> 
-        <h2>Introduction</h2>
-        <!-- Added header styling -->
-        <p>Day trading is buying and selling stocks within the same day...</p>
-    </section>
+  <!-- ✅ Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <section> 
-        <h3>Tools Day Traders use</h3>
-        <!-- Added header styling -->
-        <ul> 
-            <li>Trading apps like ThinkorSwim</li>
-            <li>Charts and indicators</li>
-            <li>News updates and scanners</li>
-        </ul>
-    </section>
+  <!-- ✅ Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <section> 
-        <h3>Steps to Get Started</h3>
-        <!-- Added header styling -->
-        <ol> 
-            <li>Learn some trading strategies</li>
-            <li>Open a trading account</li>
-            <li>Practice on a fake/demo account</li>
-            <li>Start small and be careful</li>
-        </ol>
-    </section>
+<body class="bg-light text-dark">
 
-<!-- Footer with navigation back to home -->
-    <section> 
+  <!-- ✅ Header -->
+  <header class="container py-4 text-center">
+    <h1 class="mb-3">Day Trading Basics</h1>
+  </header>
+
+  <!-- ✅ Main Content -->
+  <main class="container my-5">
+    <div class="row g-4">
+
+      <!-- Introduction -->
+      <section class="col-12">
+        <div class="card p-4">
+          <h2>Introduction</h2>
+          <p>Day trading is buying and selling stocks within the same day...</p>
+        </div>
+      </section>
+
+      <!-- Tools -->
+      <section class="col-md-6">
+        <div class="card p-4">
+          <h3>Tools Day Traders Use</h3>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Trading apps like ThinkorSwim</li>
+            <li class="list-group-item">Charts and indicators</li>
+            <li class="list-group-item">News updates and scanners</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Steps -->
+      <section class="col-md-6">
+        <div class="card p-4">
+          <h3>Steps to Get Started</h3>
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Learn some trading strategies</li>
+            <li class="list-group-item">Open a trading account</li>
+            <li class="list-group-item">Practice on a fake/demo account</li>
+            <li class="list-group-item">Start small and be careful</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Chart -->
+      <section class="col-12 text-center">
         <h3>Example Chart</h3>
-        <!-- Added header styling -->
-        <img src="https://www.google.com/imgres?q=day%20trading%20chart%20example%20images&imgurl=https%3A%2F%2Fwww.netpicks.com%2Fwp-content%2Fuploads%2F2024%2F09%2FWhat-Makes-Chart-Patterns-Reliable-in-Day-Trading.webp&imgrefurl=https%3A%2F%2Fwww.netpicks.com%2Fchart-patterns-reliable-day-trading%2F&docid=KwRiTdiW1DhE5M&tbnid=NyQ4gJTde-_hlM&vet=12ahUKEwiGkuPxm9GPAxUBFlkFHaJSBpIQM3oECFgQAA..i&w=1000&h=474&hcb=2&ved=2ahUKEwiGkuPxm9GPAxUBFlkFHaJSBpIQM3oECFgQAA" alt="Day Trading Chart Example" width="400" height="200">
-    </section>
+        <img src="https://www.netpicks.com/wp-content/uploads/2024/09/What-Makes-Chart-Patterns-Reliable-in-Day-Trading.webp" 
+             alt="Day Trading Chart Example" class="img-fluid rounded shadow" width="400" height="200">
+      </section>
+    </div>
+  </main>
 
-    <footer> 
-        <p><a href="index.html">Back to Home</a></p>
-    </footer>
-</main>
+  <!-- ✅ Footer -->
+  <footer class="container text-center py-4">
+    <p><a href="index.html" class="btn btn-outline-primary">Back to Home</a></p>
+  </footer>
+
+</body>
+</html>
