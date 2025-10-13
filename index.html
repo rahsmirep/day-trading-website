@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Added header styling -->
 <head> 
-    <meta charset="UTF-8"use anchor_lang::prelude::*;
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- This is the main header for the page-->
-    <title>Day Trading Basics</title>
-    <!-- Added header styling -->
-     <link rel="stylesheet" href="css/style.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day Trading Basics</title>
+
+  <!-- ✅ Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ✅ Custom CSS -->
+  <link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body class="bg-light text-dark">
 
-  <!-- ✅ Header with Container -->
+  <!-- ✅ Header -->
   <header class="container py-4">
     <h1 class="text-center mb-3">Welcome to Day Trading 101</h1>
     <nav class="text-center">
@@ -22,16 +24,17 @@
       </ul>
     </nav>
   </header>
-    <main class="section content">
-    <main class="flex-container">
-         <section class="card">  
-            <!-- This section explains the basics of day trading -->
-            <h2>Understanding the Basics</h2>
-            <p>Day trading is when you buy and sell stuff in the same day. You have to be fast, focused, and careful or you can lose money quick</p>
-            <p>Most People trade stocks, forex, or futures trying to make money off of small price jumps</p>
-        </section>
 
-      <section class="col-md-6">
+  <!-- ✅ Main Content -->
+  <main class="container">
+    <section class="card mb-4 p-3">
+      <h2>Understanding the Basics</h2>
+      <p>Day trading is when you buy and sell assets within the same day. You have to be fast, focused, and careful—or you can lose money quickly.</p>
+      <p>Most people trade stocks, forex, or futures, trying to make money off small price movements.</p>
+    </section>
+
+    <section class="row mb-4">
+      <div class="col-md-6">
         <div class="card p-3">
           <h2>Key Points to Remember</h2>
           <ul class="list-group list-group-flush">
@@ -41,44 +44,40 @@
             <li class="list-group-item">Use tools like charts and news to help you decide</li>
           </ul>
         </div>
-      </section>
+      </div>
 
-
-      <section class="col-12">
+      <div class="col-md-6">
         <div class="card p-3">
           <h3>Steps to Get Started</h3>
           <ol class="list-group list-group-numbered">
             <li class="list-group-item">Learn some trading strategies</li>
             <li class="list-group-item">Open a trading account</li>
-            <li class="list-group-item">Practice on a fake/demo account</li>
+            <li class="list-group-item">Practice on a demo account</li>
             <li class="list-group-item">Start small and be careful</li>
           </ol>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Section 4 -->
-      <section class="col-12 text-center">
-        <h3>Example Chart</h3>
-        <img src="https://www.netpicks.com/wp-content/uploads/2024/09/What-Makes-Chart-Patterns-Reliable-in-Day-Trading.webp" 
-             alt="Day Trading Chart Example" class="img-fluid rounded shadow" width="400" height="200">
-      </section>
-    </div>
-  </main>
+    <section class="text-center mb-5">
+      <h3>Example Chart</h3>
+      <img src="https://www.netpicks.com/wp-content/uploads/2024/09/What-Makes-Chart-Patterns-Reliable-in-Day-Trading.webp" 
+           alt="Day Trading Chart Example" class="img-fluid rounded shadow" width="400" height="200">
+    </section>
 
-
-  <section class="container my-5">
-    <div class="card p-4 bg-warning text-dark">
+    <section class="card p-4 bg-warning text-dark mb-5">
       <h2 id="hero">Welcome to My Site</h2>
       <p>This is the intro section.</p>
-    </div>
-  </section>
+    </section>
+  </main>
 
-
+  <!-- ✅ Footer -->
   <footer class="container text-center py-4">
     <p>Contact info goes here.</p>
     <p><a href="page2.html" class="btn btn-outline-primary">Go to Page 2</a></p>
     <p>&copy; 2025 Rahsmire Trading Academy</p>
   </footer>
 
-
+</body>
 </html>
+
